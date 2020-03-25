@@ -21,6 +21,7 @@ nav {
               
 }
 
+/* Clase CSS (.) */
 .li-nav {
     display: inline-block;      /* Visualizacion en bloques de linea (Ordena o alinea a un lado)*/ 
     margin: 5px;
