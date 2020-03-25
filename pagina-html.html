@@ -13,10 +13,10 @@
        <nav>
             <ul>
                 <!-- Etiqueta para hacer un enlace (a)-->
-                <li> <a href="index.html">Inicio</a> </li>
-                <li> <a href="pagina-html.html">HTML</a> </li>
-                <li> <a href="pagina-css.html">CSS</a> </li>
-                <li> <a href="pagina-js">JavaScript</a> </li>  
+                <li class="li-nav"> <a href="index.html">Inicio</a> </li>
+                <li class="li-nav"> <a href="pagina-html.html">HTML</a> </li>
+                <li class="li-nav"> <a href="pagina-css.html">CSS</a> </li>
+                <li class="li-nav"> <a href="pagina-js.html">JavaScript</a> </li>  
             </ul>
        </nav>
        
@@ -26,19 +26,72 @@
 
        <aside>
             <label>Este es el aside</label>
+
+            <nav>
+               <ul>
+                    <li class="li-aside"> <a href="#html5"> HTML5 </a> </li>
+                    <li class="li-aside"> <a href="#etiquetas-principales"> Etiquetas principales </a> </li>
+               </ul>
+            </nav>
+
             <br><br><br><br><br><br><br><br><br><br><br><br><br>
        </aside>
 
        <section>
             <label>Este es el section</label>
+            
+            <article id="html5">
+                 <h2>HTML5</h2>
+                 
+                 <p>HTML es un lenguaje de etiquetas significa (HyperText Markup Language)</p>
+                 <p>Y se usa para hacer la estructura de la pagina web</p>
+            </article>
 
-            <h1>Etiquetas HTML5</h1>
+            <br>
 
-            <h3> Etiquetas H </h3>
-            <p> Las etiquetas H van desde el valor 1 hasta el 6.</p>
-            <p> El valor menor tiene mas importancia que el valor mayor</p>
-            <p> El valor menor tiene mas tamaño que el valor mayor</p>
-            <p> h1 h2 h3 h4 h5 h6 </p>
+            <article id="etiquetas-principales">
+                 <h2>Etiquetas principales</h2>
+                 
+                 <h3> !DOCTYPE </h3>
+                 <p>Etiqueta que se usa para indicar que la pagina esta realizada en la version de HTML5</p>
+
+                 <h3>HTML</h3>
+                 <p>Dentro de estas etiquetas se debe de poner toda la pagina web</p>
+
+            </article>
+            
+            <br>
+
+            <article>
+               <h2>Etiquetas principales dentro de HTML</h2>
+               
+               <h3>Head</h3>
+               <p>Head es la cabeza de la pagina web, Aqui agregamos el titulo de la pagina (Pestaña del navegador),</p>
+               <p>Enlaces de CSS, Enlaces de JavaScript, Etiquetas Meta y demas enlaces</p>
+
+               <h3>Body</h3>
+               <p>El Body es el cuerpo de la pagina web, Aqui se agrega todos los componentes de la pagina.</p>
+
+               <h3>Footer</h3>
+               <p>El Footer es los pies de la pagina web, En el ponemos enlaces a redes sociales, Numeros telefonicos, Direcciones etc.</p>
+            </article>
+
+            <br>
+            
+            <article>
+               <h2>Etiquetas HTML5</h2>
+
+               <h3> Etiquetas H </h3>
+               <p> Las etiquetas H van desde el valor 1 hasta el 6.</p>
+               <p> El valor menor tiene mas importancia que el valor mayor</p>
+               <p> El valor menor tiene mas tamaño que el valor mayor</p>
+               <p> h1 h2 h3 h4 h5 h6 </p>
+            </article>
+
+            <article>
+
+            </article>
+            
        </section>
        
     </body>

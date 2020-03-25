@@ -5,6 +5,10 @@ Para hacer una modificacion de CSS en la pagina web llamo la etiqueta y encierro
 
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;       /* Fuente tipografica (Tipo de letra)*/
 }
@@ -17,15 +21,25 @@ nav {
               
 }
 
-li {
+.li-nav {
     display: inline-block;      /* Visualizacion en bloques de linea (Ordena o alinea a un lado)*/ 
     margin: 5px;
     padding-left: 5px;      /* Margen interna a la izquierda en pixeles*/
     padding-right: 5px;     /* Margen interna a la derecha en pixeles */
 }
 
+.li-aside {
+    margin: 5px;
+    padding-left: 5px;      
+    padding-right: 5px;
+}
+
 a {
      color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra)*/
+}
+
+h2 {
+    color: #5D57B3 ;
 }
 
 header {
