@@ -12,7 +12,7 @@
 
         <!-- Este es el menu (nav)   -->
        <nav>
-            <ul>
+            <ul class="ul-nav">
                 <!-- Etiqueta para hacer un enlace (a)-->
                 <li class="li-nav"> <a href="index.html">Inicio</a> </li>
                 <li class="li-nav"> <a href="pagina-html.html">HTML</a> </li>
@@ -20,7 +20,7 @@
                 <li class="li-nav"> <a href="pagina-js.html">JavaScript</a> </li>  
             </ul>
 
-            <ul>
+            <ul class="ul-buscar">
                <label for="">Buscar</label>
                <input type="text">
                <button>Buscar</button>
@@ -150,6 +150,8 @@
                  <p>La etiqueta a se usa para crear enlaces (Se puede usar en cualquier parte)</p>
                  <p>La propiedad o atributo que enlaza es el href="" </p>
                  <p>Llamamos a paginas con su nombre (pagina.html) o a secciones con el # (#seccion1) </p>
+
+                 <a href="#"> Esta es un a </a>
             </article>
 
             <hr>
@@ -159,6 +161,8 @@
                  <h2>IMG (Imagenes)</h2>
                  <p>la etiqueta img se usa para enlazar imagenes</p>
                  <p>La propiedad o atributo que enlaza es src="" </p>
+
+                 <img src="img/img-html5.jpg" width="150" alt="Imagen HTML5" title="Esta es una etiqueta IMG">
             </article>
 
             <hr>
@@ -175,8 +179,43 @@
             <article>
                  <h2>LI (Listas)</h2>
                  <p>Se usa para hacer listas</p>
+
+                 <li> Esta es un li (Lista)</li>
             </article>
             
+            <hr>
+            <br>
+
+            <article>
+                 <h2>LABEL (Etiqueta)</h2>
+                 <p>Label se usa para hacer titulos o etiquetas</p>
+
+                 <label> Este es un label (Etiqueta)</label>
+            </article>
+
+            <hr>
+            <br>
+
+            <article>
+                 <h2>INPUT (Caja de texto)</h2>
+                 <p>La etiqueta input son cajas de texto que se usan para que algun usuario de la pagina</p>
+                 <p>Ingrese datos a ella. (Formularios de contactenos, Buscar)</p>
+                 <p>El input tiene diferentes tipos (type)</p>
+                 <p> Tipo: text, email, number, password, image, tel, url, date </p>
+
+                 <form>
+                    <label class="label-form">Input tipo texto : </label> <input class="input-form" type="text">
+                    <label class="label-form">Input tipo email : </label> <input class="input-form" type="email">
+                    <label>Input tipo numero: </label> <input class="input-form" type="number">
+                    <label>Input tipo contraseña : </label> <input class="input-form" type="password">
+                    <label>Input tipo imagen :</label> <input class="input-form" type="image">
+                    <label>Input tipo telefono :</label> <input class="input-form" type="tel">
+                    <label>Input tipo dominio web :</label> <input class="input-form" type="url">
+                    <label>Input tipo fecha :</label> <input class="input-form" type="date">
+                 </form>
+
+            </article>
+
             <hr>
             <br>
 

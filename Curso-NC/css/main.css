@@ -21,6 +21,14 @@ nav {
               
 }
 
+.ul-nav {
+    display: inline-block;
+}
+
+.ul-buscar {
+    display: inline-block;
+}
+
 /* Clase CSS (.) */
 .li-nav {
     display: inline-block;      /* Visualizacion en bloques de linea (Ordena o alinea a un lado)*/ 
@@ -57,7 +65,8 @@ aside {
     background-color: #EBEDF2;
     margin: 2px;
     display: inline-block;
-    width: 30%;
+    width: 30%;             /* Ancho */
+    
     padding: 15px;
 }
 
@@ -69,6 +78,13 @@ section {
     padding: 15px;
 }
 
+.input-form {
+    display: flex;
+}
+
+.label-form {
+    display: inline-block;
+}
 
 
 
