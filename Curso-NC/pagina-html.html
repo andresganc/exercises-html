@@ -9,37 +9,188 @@
     </head>
 
     <body>
+
         <!-- Este es el menu (nav)   -->
        <nav>
             <ul>
                 <!-- Etiqueta para hacer un enlace (a)-->
-                <li> <a href="index.html">Inicio</a> </li>
-                <li> <a href="pagina-html.html">HTML</a> </li>
-                <li> <a href="pagina-css.html">CSS</a> </li>
-                <li> <a href="pagina-js">JavaScript</a> </li>  
+                <li class="li-nav"> <a href="index.html">Inicio</a> </li>
+                <li class="li-nav"> <a href="pagina-html.html">HTML</a> </li>
+                <li class="li-nav"> <a href="pagina-css.html">CSS</a> </li>
+                <li class="li-nav"> <a href="pagina-js.html">JavaScript</a> </li>  
             </ul>
+
+            <ul>
+               <label for="">Buscar</label>
+               <input type="text">
+               <button>Buscar</button>
+            </ul>
+
        </nav>
-       
+
+       <!-- HEADER INICIO -->
        <header>
             <img src="img/html5.png" width="700" height="250">
        </header>
+       <!-- HEADER FIN -->
 
+       <!-- ASIDE INICIO -->
        <aside>
-            <label>Este es el aside</label>
+            <label> MENU </label>
+
+            <nav>
+               <ul>
+                    <li class="li-aside"> <a href="#html5"> HTML5 </a> </li>
+                    <li class="li-aside"> <a href="#etiquetas-principales"> Etiquetas principales </a> </li>
+                    <li class="li-aside"> <a href="#etiquetas-principales-html"> Etiquetas principales dentro de HTML </a> </li>
+                    <li class="li-aside"> <a href="#contenedores"> Contenedores </a> </li>
+               </ul>
+            </nav>
+
             <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <label>Este es el aside</label>
        </aside>
+       <!-- ASIDE FIN -->
 
+       <!-- SECTION INICIO -->
        <section>
+                        
+            <article id="html5">
+                 <h2>HTML5</h2>
+                 
+                 <p>HTML es un lenguaje de etiquetas significa (HyperText Markup Language)</p>
+                 <p>Y se usa para hacer la estructura de la pagina web</p>
+            </article>
+
+            <hr>
+            <br>
+            
+            <article id="etiquetas-principales">
+                 <h2>Etiquetas principales</h2>
+                 
+                 <h3> !DOCTYPE </h3>
+                 <p>Etiqueta que se usa para indicar que la pagina esta realizada en la version de HTML5</p>
+
+                 <h3>HTML</h3>
+                 <p>Dentro de estas etiquetas se debe de poner toda la pagina web</p>
+
+            </article>
+            
+            <hr>
+            <br>
+
+            <article id="etiquetas-principales-html">
+               <h2>Etiquetas principales dentro de HTML</h2>
+               
+               <h3>Head</h3>
+               <p>Head es la cabeza de la pagina web, Aqui agregamos el titulo de la pagina (Pestaña del navegador),</p>
+               <p>Enlaces de CSS, Enlaces de JavaScript, Etiquetas Meta y demas enlaces</p>
+
+               <h3>Body</h3>
+               <p>El Body es el cuerpo de la pagina web, Aqui se agrega todos los componentes de la pagina.</p>
+
+               <h3>Footer</h3>
+               <p>El Footer es los pies de la pagina web, En el ponemos enlaces a redes sociales, Numeros telefonicos, Direcciones etc.</p>
+            </article>
+
+            <hr>
+            <br>
+
+            <article id="contenedores">
+               <h2>Contenedores</h2>
+
+               <h3>Nav (Menu)</h3>
+               <p>El NAV o menu es donde ponemos los enlaces de navegacion de la pagina web</p>
+               
+               <h3>Header (Cabezera)</h3>
+               <p>El Header (Cabezera) es donde podemos poner el menu y/o La portada de la pagina web</p>
+
+               <h3>Aside (A un lado)</h3>
+               <p>Este contenedor suele estar a los lados, Izquierda o Derecha. Y se suele usar para menus alternos o publicidad</p>
+
+               <h3>Section (Secciones)</h3>
+               <p>Este contenedor se usa para meter secciones de contenido</p>
+
+               <h3>Article (Articulos)</h3>
+               <p>Los Articulos son pequeños contenedores que se suelen usar dentro de otros contenedores y se usan</p>
+               <p>para hacer pequeños articulos o cuadros con contenido</p>
+
+               <h3>DIV (Divisiones) - No recomendable usar</h3>
+               <p>Antiguamente se solia usar pero ya cayo en des-uso, Ya que los dispositivos moviles</p>
+               <p>no solian reconocer que parte de la pagina era.</p>
+
+            </article>
+
+            <hr>
+            <br>
+            
+            <article>
+               <h2>Etiquetas HTML5</h2>
+
+               <h3> Etiquetas H </h3>
+               <p> Las etiquetas H van desde el valor 1 hasta el 6.</p>
+               <p> El valor menor tiene mas importancia que el valor mayor</p>
+               <p> El valor menor tiene mas tamaño que el valor mayor</p>
+               <p> h1 h2 h3 h4 h5 h6 </p>
+            </article>
+
+            <hr>
+            <br>
+
+            <article>
+               <h2>P (Parrafos)</h2>
+               <p>Las p son etiquetas que se usan para poner texto de tipo parrafos</p>
+            </article>
+
+            <hr>
+            <br>
+
+            <article>
+                 <h2>A (Enlaces)</h2>
+                 <p>La etiqueta a se usa para crear enlaces (Se puede usar en cualquier parte)</p>
+                 <p>La propiedad o atributo que enlaza es el href="" </p>
+                 <p>Llamamos a paginas con su nombre (pagina.html) o a secciones con el # (#seccion1) </p>
+            </article>
+
+            <hr>
+            <br>
+
+            <article>
+                 <h2>IMG (Imagenes)</h2>
+                 <p>la etiqueta img se usa para enlazar imagenes</p>
+                 <p>La propiedad o atributo que enlaza es src="" </p>
+            </article>
+
+            <hr>
+            <br>
+
+            <article>
+                 <h2>UL (Agrupar listas)</h2>
+                 <p>La etiqueta ul se usa para agrupar li (Listas)</p>
+            </article>
+
+            <hr>
+            <br>
+
+            <article>
+                 <h2>LI (Listas)</h2>
+                 <p>Se usa para hacer listas</p>
+            </article>
+            
+            <hr>
+            <br>
+
+            <article>
+                 <h2>BUTTON (Boton)</h2>
+                 <p>La etiqueta button se usa para hacer botones</p>
+                 <button>Este es un boton</button>
+            </article>
+
+            <br>
+            <hr>
             <label>Este es el section</label>
-
-            <h1>Etiquetas HTML5</h1>
-
-            <h3> Etiquetas H </h3>
-            <p> Las etiquetas H van desde el valor 1 hasta el 6.</p>
-            <p> El valor menor tiene mas importancia que el valor mayor</p>
-            <p> El valor menor tiene mas tamaño que el valor mayor</p>
-            <p> h1 h2 h3 h4 h5 h6 </p>
        </section>
+       <!-- SECTION FIN -->
        
     </body>
 
