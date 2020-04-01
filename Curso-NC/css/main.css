@@ -79,7 +79,7 @@ section {
 }
 
 .input-form {
-    display: flex;
+    display: inline-block;
 }
 
 .label-form {

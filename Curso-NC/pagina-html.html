@@ -4,46 +4,73 @@
     <head>
         <title>HTML5</title>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!-- Enlaces CSS -->
         <link rel="stylesheet" type="text/css" href="css/main.css"/>
     </head>
 
     <body>
 
-        <!-- Este es el menu (nav)   -->
-       <nav>
-            <ul class="ul-nav">
-                <!-- Etiqueta para hacer un enlace (a)-->
-                <li class="li-nav"> <a href="index.html">Inicio</a> </li>
-                <li class="li-nav"> <a href="pagina-html.html">HTML</a> </li>
-                <li class="li-nav"> <a href="pagina-css.html">CSS</a> </li>
-                <li class="li-nav"> <a href="pagina-js.html">JavaScript</a> </li>  
-            </ul>
+     <main>
+          <!-- Este es el menu (nav)   -->
+          <nav>
+               <ul class="ul-nav">
+                    <!-- Etiqueta para hacer un enlace (a)-->
+                    <li class="li-nav"> <a href="index.html">Inicio</a> </li>
+                    <li class="li-nav"> <a href="pagina-html.html">HTML</a> </li>
+                    <li class="li-nav"> <a href="pagina-css.html">CSS</a> </li>
+                    <li class="li-nav"> <a href="pagina-js.html">JavaScript</a> </li>  
+               </ul>
 
-            <ul class="ul-buscar">
-               <label for="">Buscar</label>
-               <input type="text">
-               <button>Buscar</button>
-            </ul>
+               <ul class="ul-buscar">
+                    <label for="">Buscar</label>
+                    <input type="text">
+                    <button>Buscar</button>
+               </ul>
+          </nav>
 
-       </nav>
+          <!-- HEADER INICIO -->
+          <header>
+               <img src="img/html5.png" width="700" height="250">
+          </header>
+          <!-- HEADER FIN -->
+     </main>
 
-       <!-- HEADER INICIO -->
-       <header>
-            <img src="img/html5.png" width="700" height="250">
-       </header>
-       <!-- HEADER FIN -->
+        
 
        <!-- ASIDE INICIO -->
        <aside>
+            <br>
             <label> MENU </label>
-
+               <br><br>
             <nav>
                <ul>
-                    <li class="li-aside"> <a href="#html5"> HTML5 </a> </li>
+                    <li class="li-aside"> <a href="#que-es-html5"> Que es HTML5 </a> </li>
+                    <br>
                     <li class="li-aside"> <a href="#etiquetas-principales"> Etiquetas principales </a> </li>
+                    <br>
                     <li class="li-aside"> <a href="#etiquetas-principales-html"> Etiquetas principales dentro de HTML </a> </li>
+                    <br>
                     <li class="li-aside"> <a href="#contenedores"> Contenedores </a> </li>
+                    <br>
+                    <li class="li-aside"> <a href="#h"> Etiquetas H </a> </li>
+                    <br>
+                    <li class="li-aside"> <a href="#parrafos"> Etiqueta P </a> </li>
+                    <br>
+                    <li class="li-aside"> <a href="#a"> Etiqueta A </a> </li>
+                    <br>
+                    <li class="li-aside"> <a href="#img"> Etiqueta IMG </a> </li>
+                    <br>
+                    <li class="li-aside"> <a href="#ul"> Etiqueta UL </a> </li>
+                    <br>
+                    <li class="li-aside"> <a href="#li"> Etiqueta LI </a> </li>
+                    <br>
+                    <li class="li-aside"> <a href="#label"> Etiqueta LABEL </a> </li>
+                    <br>
+                    <li class="li-aside"> <a href="#input"> Etiqueta INPUT </a> </li>
+                    <br>
+                    <li class="li-aside"> <a href="#button"> Etiqueta BUTTON </a> </li>
                </ul>
             </nav>
 
@@ -55,8 +82,8 @@
        <!-- SECTION INICIO -->
        <section>
                         
-            <article id="html5">
-                 <h2>HTML5</h2>
+            <article id="que-es-html5">
+                 <h2>QUE ES HTML5</h2>
                  
                  <p>HTML es un lenguaje de etiquetas significa (HyperText Markup Language)</p>
                  <p>Y se usa para hacer la estructura de la pagina web</p>
@@ -99,6 +126,9 @@
             <article id="contenedores">
                <h2>Contenedores</h2>
 
+               <h3> MAIN </h3>
+               <p>El contenedor MAIN. Sirve para albergar los contenedores que queramos poner como principales.</p>
+               
                <h3>Nav (Menu)</h3>
                <p>El NAV o menu es donde ponemos los enlaces de navegacion de la pagina web</p>
                
@@ -115,38 +145,52 @@
                <p>Los Articulos son pequeños contenedores que se suelen usar dentro de otros contenedores y se usan</p>
                <p>para hacer pequeños articulos o cuadros con contenido</p>
 
-               <h3>DIV (Divisiones) - No recomendable usar</h3>
+               <h3>DIV (Divisiones)</h3>
                <p>Antiguamente se solia usar pero ya cayo en des-uso, Ya que los dispositivos moviles</p>
                <p>no solian reconocer que parte de la pagina era.</p>
 
+
+
             </article>
 
+
+            
+
+            
+
+        
             <hr>
             <br>
             
-            <article>
-               <h2>Etiquetas HTML5</h2>
-
-               <h3> Etiquetas H </h3>
+            <article id="h">
+               <h2> Etiquetas H (Titulos) </h2>
+               
                <p> Las etiquetas H van desde el valor 1 hasta el 6.</p>
                <p> El valor menor tiene mas importancia que el valor mayor</p>
                <p> El valor menor tiene mas tamaño que el valor mayor</p>
                <p> h1 h2 h3 h4 h5 h6 </p>
+               <br>
+               <h1> Esto es un H1 </h1>
+               <h2> Esto es un H2 </h2>
+               <h3> Esto es un H3 </h3>
+               <h4> Esto es un H4 </h4>
+               <h5> Esto es un H5 </h5>
+               <h6> Esto es un H6 </h6>
             </article>
 
             <hr>
             <br>
 
-            <article>
-               <h2>P (Parrafos)</h2>
+            <article id="parrafos">
+               <h2>Etiqueta P (Parrafos)</h2>
                <p>Las p son etiquetas que se usan para poner texto de tipo parrafos</p>
             </article>
 
             <hr>
             <br>
 
-            <article>
-                 <h2>A (Enlaces)</h2>
+            <article id="a">
+                 <h2>Etiqueta A (Enlaces)</h2>
                  <p>La etiqueta a se usa para crear enlaces (Se puede usar en cualquier parte)</p>
                  <p>La propiedad o atributo que enlaza es el href="" </p>
                  <p>Llamamos a paginas con su nombre (pagina.html) o a secciones con el # (#seccion1) </p>
@@ -157,8 +201,8 @@
             <hr>
             <br>
 
-            <article>
-                 <h2>IMG (Imagenes)</h2>
+            <article id="img">
+                 <h2>Etiqueta IMG (Imagenes)</h2>
                  <p>la etiqueta img se usa para enlazar imagenes</p>
                  <p>La propiedad o atributo que enlaza es src="" </p>
 
@@ -168,16 +212,16 @@
             <hr>
             <br>
 
-            <article>
-                 <h2>UL (Agrupar listas)</h2>
+            <article id="ul">
+                 <h2>Etiqueta UL (Agrupar listas)</h2>
                  <p>La etiqueta ul se usa para agrupar li (Listas)</p>
             </article>
 
             <hr>
             <br>
 
-            <article>
-                 <h2>LI (Listas)</h2>
+            <article id="li">
+                 <h2> Etiqueta LI (Listas)</h2>
                  <p>Se usa para hacer listas</p>
 
                  <li> Esta es un li (Lista)</li>
@@ -186,8 +230,8 @@
             <hr>
             <br>
 
-            <article>
-                 <h2>LABEL (Etiqueta)</h2>
+            <article id="label">
+                 <h2>Etiqueta LABEL (Etiqueta)</h2>
                  <p>Label se usa para hacer titulos o etiquetas</p>
 
                  <label> Este es un label (Etiqueta)</label>
@@ -196,8 +240,8 @@
             <hr>
             <br>
 
-            <article>
-                 <h2>INPUT (Caja de texto)</h2>
+            <article id="input">
+                 <h2>Etiqueta INPUT (Caja de texto)</h2>
                  <p>La etiqueta input son cajas de texto que se usan para que algun usuario de la pagina</p>
                  <p>Ingrese datos a ella. (Formularios de contactenos, Buscar)</p>
                  <p>El input tiene diferentes tipos (type)</p>
@@ -205,6 +249,7 @@
 
                  <form>
                     <label class="label-form">Input tipo texto : </label> <input class="input-form" type="text">
+                    <br>
                     <label class="label-form">Input tipo email : </label> <input class="input-form" type="email">
                     <label>Input tipo numero: </label> <input class="input-form" type="number">
                     <label>Input tipo contraseña : </label> <input class="input-form" type="password">
@@ -219,8 +264,8 @@
             <hr>
             <br>
 
-            <article>
-                 <h2>BUTTON (Boton)</h2>
+            <article id="button">
+                 <h2>Etiqueta BUTTON (Boton)</h2>
                  <p>La etiqueta button se usa para hacer botones</p>
                  <button>Este es un boton</button>
             </article>
