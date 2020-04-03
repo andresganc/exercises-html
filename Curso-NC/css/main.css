@@ -80,6 +80,8 @@ section {
 
 .article-form {
     background-image: url("../img/contactenos.jpg");
+    background-repeat: round;
+    padding: 15px;
 }
 
 .input-form {
@@ -95,11 +97,17 @@ section {
 .div-form-label {
     display: inline-block;
     width: 220px;
+    margin: 5px;
 }
 
 .div-form-input {
     display: inline-block;
     width: 400px;
+    margin: 5px;
+}
+
+footer {
+    background-image: url("../img/fondo-oscuro.jpg");
 }
 
 
