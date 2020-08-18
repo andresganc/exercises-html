@@ -1,185 +1,288 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <head>
-        <title>HTML5</title>
+<head>
+     <title>HTML5</title>
 
-        <!-- Etiqueta que pone el icono en la pestaña del navegador -->
-        <link rel="icon" href="img/favicon.jpg">
+     <!-- Etiqueta que pone el icono en la pestaña del navegador -->
+     <link rel="icon" href="img/favicon.jpg">
 
-        <!-- Etiqueta para volver la pagina web RESPOSIVE DESING ( La pagina se adapta a cualquier dispositivo o pantalla ) -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- ETIQUETAS META -->
+     <!-- Etiqueta utf-8 : Etiqueta para codificar bien los caracteres de escritura-->
+     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+     <!-- Etiqueta keywords : Etiqueta para agregar las palabras clave -->
+     <meta name="keywords" content="">
+     <!-- Etiqueta description : Etiqueta para agregar la descripcion de la pagina -->
+     <meta name="description" content="">
+     <!-- Etiqueta author : Etiqueta para agregar el autor de la pagina -->
+     <meta name="author" content="NC - Newsoft Computer">
+     <!-- Etiqueta author : Etiqueta para agregar el autor de la pagina -->
+     <meta name="copyright" content="NC - Newsoft Computer">
+     <!-- Etiqueta viewport: para volver la pagina web RESPOSIVE DESING ( La pagina se adapta a cualquier dispositivo o pantalla ) -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Enlaces CSS -->
-        <link rel="stylesheet" type="text/css" href="css/main.css"/>
-    </head>
 
-    <body>
+
+     <!-- Enlaces CSS -->
+     <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body>
 
      <main>
-          <!-- Este es el menu (nav)   -->
-          <nav>
-               <ul class="ul-nav">
-                    <!-- Etiqueta para hacer un enlace (a)-->
-                    <li class="li-nav"> <a href="index.html">Inicio</a> </li>
-                    <li class="li-nav"> <a href="pagina-html.html">HTML</a> </li>
-                    <li class="li-nav"> <a href="pagina-css.html">CSS</a> </li>
-                    <li class="li-nav"> <a href="pagina-js.html">JavaScript</a> </li>
-               </ul>
-          
-               <ul class="ul-buscar">
-                    <label for="">Buscar</label>
-                    <input type="text">
-                    <button>Buscar</button>
-               </ul>
-          </nav>
-
           <!-- HEADER INICIO -->
           <header>
-               <img src="img/html5.png" width="700" height="250">
+               <!-- Este es el menu (nav)   -->
+               <nav class="nav-menu">
+                    <ul class="nav-ul">
+                         <!-- Etiqueta para hacer un enlace (a)-->
+                         <li class="nav-li" active> <a href="index.html"> Inicio </a> </li>
+                         <li class="nav-li"> <a href="pagina-html.html"> HTML </a> </li>
+                         <li class="nav-li"> <a href="pagina-css.html"> CSS </a> </li>
+                         <li class="nav-li"> <a href="pagina-js.html"> JavaScript </a> </li>
+                    </ul>
+
+                    <ul class="ul-buscar">
+                         <label for="">Buscar</label>
+                         <input type="text">
+                         <button>Buscar</button>
+                    </ul>
+               </nav>
+
+               <div class="div-img-header" >
+                    <img src="img/html-5.svg" width="200px">
+               </div>
+
+               <div class="header-div">
+                    <h1 class="header-h1"> HTML5 </h1>
+               </div>
+
+               <div class="header-div">
+                    <h2 class="header-h1"> Curso NC de HTML5 </h2>
+               </div>
+
+
           </header>
           <!-- HEADER FIN -->
      </main>
 
-        
 
-       <!-- ASIDE INICIO -->
-       <aside>
-            <br>
-            <label> MENU </label>
-               <br><br>
-            <nav>
-               <ul>
-                    <li class="li-aside"> <a href="#que-es-html5"> Que es HTML5 </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#etiquetas-principales"> Etiquetas principales </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#etiquetas-principales-html"> Etiquetas principales dentro de HTML </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#contenedores"> Contenedores </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#h"> Etiquetas H </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#parrafos"> Etiqueta P </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#a"> Etiqueta A </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#img"> Etiqueta IMG </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#ul"> Etiqueta UL </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#li"> Etiqueta LI </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#label"> Etiqueta LABEL </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#input"> Etiqueta INPUT </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#button"> Etiqueta BUTTON </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#etiqueta-select"> Etiqueta SELECT </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#etiqueta-audio"> Etiqueta Audio </a> </li>
-                    <br>
-                    <li class="li-aside"> <a href="#etiqueta-video"> Etiqueta Video </a> </li>
-               </ul>
-            </nav>
 
-            <br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <label>Este es el aside</label>
-       </aside>
-       <!-- ASIDE FIN -->
+     <!-- ASIDE INICIO -->
+     <aside>
 
-       <!-- SECTION INICIO -->
-     <section>
-     
+          <section>
+               <article>
+                    <br>
+                    <h3 class="aside-h3"> Contenido </h3>
+                    <br><br>
+                    <nav>
+                         <ul>
+                              <li class="li-aside"> <a href="#que-es-html5"> Que es HTML5 </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#etiquetas-principales"> Etiquetas principales </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#etiquetas-principales-html"> Etiquetas principales dentro
+                                        de
+                                        HTML </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#contenedores"> Contenedores </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#h"> Etiquetas H </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#parrafos"> Etiqueta P </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#a"> Etiqueta A </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#img"> Etiqueta IMG </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#ul"> Etiqueta UL </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#li"> Etiqueta LI </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#label"> Etiqueta LABEL </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#input"> Etiqueta INPUT </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#button"> Etiqueta BUTTON </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#etiqueta-select"> Etiqueta SELECT </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#etiqueta-audio"> Etiqueta Audio </a> </li>
+                              <br>
+                              <li class="li-aside"> <a href="#etiqueta-video"> Etiqueta Video </a> </li>
+                         </ul>
+                    </nav>
+
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <p class="p-text-mini" >Este es el aside</p>
+               </article>
+
+          </section>
+
+          <section>
+
+          </section>
+
+     </aside>
+     <!-- ASIDE FIN -->
+
+
+     <!-- SECTION INICIO -->
+
+     <section class="section-clara">
           <article id="que-es-html5">
                <div>
                     <img class="img-icons" src="img/html-5.svg" alt="Html5" width="40px">
                     <h2 class="h2-article">QUE ES HTML5</h2>
                </div>
-     
+
+               <hr>
+               <br>
+
                <p>HTML es un lenguaje de etiquetas significa (HyperText Markup Language)</p>
                <p>Y se usa para hacer la estructura de la pagina web</p>
           </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+
+
+     <section class="section-oscura">
           <article id="etiquetas-principales">
                <img class="img-icons" src="img/label.svg" alt="" width="40px">
                <h2 class="h2-article">Etiquetas principales</h2>
-     
+
+               <hr>
+               <br>
+
                <h3> !DOCTYPE </h3>
                <p>Etiqueta que se usa para indicar que la pagina esta realizada en la version de HTML5</p>
-     
+
                <h3>HTML</h3>
                <p>Dentro de estas etiquetas se debe de poner toda la pagina web</p>
-     
+
           </article>
-     
-          <hr>
+
           <br>
-     
+
+     </section>
+
+     <section class="section-clara">
           <article id="etiquetas-principales-html">
                <img class="img-icons" src="img/label-html.svg" alt="" width="40px">
                <h2 class="h2-article">Etiquetas principales dentro de HTML</h2>
-     
+
+               <hr>
+               <br>
+
                <h3>Head</h3>
                <p>Head es la cabeza de la pagina web, Aqui agregamos el titulo de la pagina (Pestaña del navegador),</p>
                <p>Enlaces de CSS, Enlaces de JavaScript, Etiquetas Meta y demas enlaces</p>
-     
+
                <h3>Body</h3>
                <p>El Body es el cuerpo de la pagina web, Aqui se agrega todos los componentes de la pagina.</p>
-     
+
                <h3>Footer</h3>
                <p>El Footer es los pies de la pagina web, En el ponemos enlaces a redes sociales, Numeros telefonicos,
                     Direcciones etc.</p>
           </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+     <section class="section-oscura">
+          <article id="etiqueta-video">
+               <img class="img-icons" src="img/etiqueta-meta.png" alt="" width="40px">
+               <h2 class="h2-article">Etiquetas Meta</h2>
+               <p> Las etiquetas meta son etiquetas que se usan en el Head y no son visibles. Son de configuracion y
+                    funcionamiento de la pagina web</p>
+
+               <hr>     
+               <br>
+
+               <h3> Etiqueta utf-8 : Etiqueta para codificar bien los caracteres de escritura </h3>
+               <p> meta http-equiv="Content-Type" content="text/html;charset=UTF-8" </p>
+
+               <br>
+
+               <h3> Etiqueta keywords : Etiqueta para agregar las palabras clave </h3>
+               <p> meta name="keywords" content="" </p>
+
+               <br>
+
+               <h3> Etiqueta description : Etiqueta para agregar la descripcion de la pagina </h3>
+               <p> meta name="description" content="" </p>
+
+               <br>
+
+               <h3> Etiqueta author : Etiqueta para agregar el autor de la pagina </h3>
+               <p> meta name="author" content="NC - Newsoft Computer" </p>
+
+               <br>
+
+               <h3> Etiqueta author : Etiqueta para agregar el autor de la pagina </h3>
+               <p> meta name="copyright" content="NC - Newsoft Computer" </p>
+
+               <br>
+
+               <h3> Etiqueta viewport: para volver la pagina web RESPOSIVE DESING ( La pagina se adapta a cualquier
+                    dispositivo o pantalla </h3>
+               <p> meta name="viewport" content="width=device-width, initial-scale=1.0" </p>
+
+
+          </article>
+
+          <br>
+     </section>
+
+
+     <section class="section-clara">
           <article id="contenedores">
                <img class="img-icons" src="./img/container.svg" alt="" width="40px">
                <h2 class="h2-article">Contenedores</h2>
-     
+
+               <hr>
+               <br>
+
                <h3> MAIN </h3>
                <p>El contenedor MAIN. Sirve para albergar los contenedores que queramos poner como principales.</p>
-     
+
                <h3>Nav (Menu)</h3>
                <p>El NAV o menu es donde ponemos los enlaces de navegacion de la pagina web</p>
-     
+
                <h3>Header (Cabezera)</h3>
                <p>El Header (Cabezera) es donde podemos poner el menu y/o La portada de la pagina web</p>
-     
+
                <h3>Aside (A un lado)</h3>
                <p>Este contenedor suele estar a los lados, Izquierda o Derecha. Y se suele usar para menus alternos o
                     publicidad</p>
-     
+
                <h3>Section (Secciones)</h3>
                <p>Este contenedor se usa para meter secciones de contenido</p>
-     
+
                <h3>Article (Articulos)</h3>
                <p>Los Articulos son pequeños contenedores que se suelen usar dentro de otros contenedores y se usan</p>
                <p>para hacer pequeños articulos o cuadros con contenido</p>
-     
+
                <h3>DIV (Divisiones)</h3>
                <p>Antiguamente se solia usar pero ya cayo en des-uso, Ya que los dispositivos moviles</p>
                <p>no solian reconocer que parte de la pagina era.</p>
-     
-     
-     
           </article>
-     
-     
-     
-          <hr>
+
           <br>
+     </section>
+
      
+     <section class="section-oscura">
           <article id="h">
                <img class="img-icons" src="./img/label-h.svg" alt="" width="40px">
                <h2 class="h2-article"> Etiquetas H (Titulos) </h2>
-     
+
+               <hr>
+               <br>
+
                <p> Las etiquetas H van desde el valor 1 hasta el 6.</p>
                <p> El valor menor tiene mas importancia que el valor mayor</p>
                <p> El valor menor tiene mas tamaño que el valor mayor</p>
@@ -192,80 +295,94 @@
                <h5> Esto es un H5 </h5>
                <h6> Esto es un H6 </h6>
           </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+
+     <section class="section-clara">
           <article id="parrafos">
                <img class="img-icons" src="./img/label-p.svg" alt="" width="40px">
                <h2 class="h2-article">Etiqueta P (Parrafos)</h2>
                <p>Las p son etiquetas que se usan para poner texto de tipo parrafos</p>
           </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+
+     <section class="section-oscura">
           <article id="a">
                <img class="img-icons" src="./img/label-a.svg" alt="" width="40px">
                <h2 class="h2-article">Etiqueta A (Enlaces)</h2>
                <p>La etiqueta a se usa para crear enlaces (Se puede usar en cualquier parte)</p>
                <p>La propiedad o atributo que enlaza es el href="" </p>
                <p>Llamamos a paginas con su nombre (pagina.html) o a secciones con el # (#seccion1) </p>
-     
+
                <a href="#"> Esta es un a </a>
           </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+
+     <section class="section-clara">
           <article id="img">
                <img class="img-icons" src="./img/label-img.svg" alt="" width="40px">
                <h2 class="h2-article">Etiqueta IMG (Imagenes)</h2>
                <p>la etiqueta img se usa para enlazar imagenes</p>
                <p>La propiedad o atributo que enlaza es src="" </p>
-     
+
                <img src="img/img-html5.jpg" width="150" alt="Imagen HTML5" title="Esta es una etiqueta IMG">
           </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+
+     <section class="section-oscura">
           <article id="ul">
                <img class="img-icons" src="./img/label-ul.svg" alt="" width="40px">
                <h2 class="h2-article">Etiqueta UL (Agrupar listas)</h2>
                <p>La etiqueta ul se usa para agrupar li (Listas)</p>
           </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+
+     <section class="section-clara">
           <article id="li">
                <h2> Etiqueta LI (Listas)</h2>
                <p>Se usa para hacer listas</p>
-     
+
                <li> Esta es un li (Lista)</li>
           </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+
+     <section class="section-oscura">
           <article id="label">
                <h2>Etiqueta LABEL (Etiqueta)</h2>
                <p>Label se usa para hacer titulos o etiquetas</p>
-     
+
                <label> Este es un label (Etiqueta)</label>
           </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+
+     <section class="section-clara">
           <article id="input">
                <h2>Etiqueta INPUT (Caja de texto)</h2>
                <p>La etiqueta input son cajas de texto que se usan para que algun usuario de la pagina</p>
                <p>Ingrese datos a ella. (Formularios de contactenos, Buscar)</p>
                <p>El input tiene diferentes tipos (type)</p>
                <p> Tipo: text, email, number, password, image, tel, url, date </p>
-     
+
                <article class="article-form">
                     <form>
                          <div>
@@ -275,137 +392,143 @@
                               <div class="div-form-input">
                                    <input class="input-form" type="text" placeholder="Escriba un texto">
                               </div>
-     
+
                               <br>
-     
+
                               <div class="div-form-label">
                                    <label class="label-form">Input tipo email : </label>
                               </div>
                               <div class="div-form-input">
                                    <input class="input-form" type="email" placeholder="Escriba un email">
                               </div>
-     
+
                               <br>
-     
+
                               <div class="div-form-label">
                                    <label class="label-form"> Input tipo numero : </label>
                               </div>
                               <div class="div-form-input">
                                    <input class="input-form" type="number" placeholder="Escriba un numero">
                               </div>
-     
+
                               <br>
-     
+
                               <div class="div-form-label">
                                    <label class="label-form"> Input tipo contraseña : </label>
                               </div>
                               <div class="div-form-input">
                                    <input class="input-form" type="password" placeholder="Escriba su contraseña">
                               </div>
-     
+
                               <br>
-     
+
                               <div class="div-form-label">
                                    <label class="label-form"> Input tipo imagen : </label>
                               </div>
                               <div class="div-form-input">
                                    <input class="input-form" type="image" placeholder="Imagen">
                               </div>
-     
+
                               <br>
-     
+
                               <div class="div-form-label">
                                    <label class="label-form"> Input tipo telefono : </label>
                               </div>
                               <div class="div-form-input">
                                    <input class="input-form" type="tel" placeholder="Escriba su telefono">
                               </div>
-     
+
                               <br>
-     
+
                               <div class="div-form-label">
                                    <label class="label-form"> Input tipo dominio web : </label>
                               </div>
                               <div class="div-form-input">
                                    <input class="input-form" type="url" placeholder="dominio web">
                               </div>
-     
+
                               <br>
-     
+
                               <div class="div-form-label">
                                    <label class="label-form"> Input tipo fecha : </label>
                               </div>
                               <div class="div-form-input">
                                    <input class="input-form" type="date" placeholder="Ingrese su fecha">
                               </div>
-     
+
                          </div>
-     
+
                     </form>
                </article>
-     
-     
-          </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+
+     <section class="section-oscura">
           <article id="button">
                <h2>Etiqueta BUTTON (Boton)</h2>
                <p>La etiqueta button se usa para hacer botones</p>
                <button>Este es un boton</button>
           </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+
+     <section class="section-clara">
           <article id="etiqueta-select">
                <h2>Etiqueta SELECT</h2>
                <p> La etiqueta select crea un menu desplegable con las opciones que queramos</p>
-     
+
                <select name="" id="">
                     <option value=""> Opcion 1 </option>
                     <option value="" selected> Opcion 2 </option>
                     <option value=""> Opcion 3 </option>
                </select>
           </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+
+     <section class="section-oscura">
           <article id="etiqueta-audio">
                <h2>Etiquetas Audio</h2>
                <p>La etiqueta audio nos muestra un reproductor de audio y cargar la cancion que le indiquemos. </p>
-     
+
                <audio controls>
                     <source src="audio/viva-la-vida.mp3" type="audio/mpeg">
                </audio>
           </article>
-     
-          <hr>
+
           <br>
-     
+     </section>
+
+
+     <section class="section-clara">
           <article id="etiqueta-video">
                <h2>Etiquetas Video</h2>
-               <p>La etiqueta video nos carga un controlador o reproductor de video y nos muestra el video que le indiquemos
+               <p>La etiqueta video nos carga un controlador o reproductor de video y nos muestra el video que le
+                    indiquemos
                </p>
-     
+
                <video controls>
                     <source src="video/viva-la-vida.mp4" type="video/mp4">
                </video>
           </article>
-     
-     
-     
-     
-     
+
           <br>
-          <hr>
+     </section>
+
+     <section class="section-clara">
           <label>Este es el section</label>
      </section>
-       
-       <!-- SECTION FIN -->
-       
+
+     
+
+     <!-- SECTION FIN -->
+
 
      <footer class="footer-html">
 
@@ -413,9 +536,9 @@
 
      </footer>
 
-    
-     </body>
 
-    
+</body>
+
+
 
 </html>

@@ -13,24 +13,97 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;       /* Fuente tipografica (Tipo de letra)*/
 }
 
-/*Etiqueta nav */
-nav {
-    background-color: #EBEDF2;      /* Color de fondo */
+
+/* HEADER */
+header {
+    background-color: #323538;
+    padding-bottom: 30px;
+}
+
+.header-div {
+    display: flex;
+    margin: auto;
+    align-content: center;
+}
+
+.header-h1 {
+    display: flex;
+    margin: auto;
+    align-content: center;
+    color: lightcyan;
+}
+
+.header-h2{
+    display: block;
+    margin: auto;
+    color: lightcyan;
+}
+
+
+
+
+
+
+
+/* ASIDE */
+aside {
+    background-color: #0E0F0F;
+    display: inline-block;
+    width: 30%;
+    float: left;            /* Flotando a la izquierda*/     
+}
+
+.aside-section {
+   display: inline-block; 
+}
+
+.aside-h3 {
+    color: lightcyan;
+}
+
+
+
+
+/* SECTIONS */
+.section-clara {
+    background-color: #DFEBF7;
+    display: inline-block;
+    width: 70%;
+    float: left;            /* Flotando a la izquierda*/ 
+}
+
+.section-oscura {
+    background-color: #CAD5E0;
+    display: inline-block;
+    width: 70%;
+    float: left;            /* Flotando a la izquierda*/ 
+}
+
+
+/* ARTICLES */
+article {
+    margin: 50px;
+}
+
+
+
+/* NAV */
+.nav-menu {
+    background-color: #222426;      /* Color de fondo */
     margin: 1px;        /* Margen externa a todos los 4 lados en pixeles*/
     padding: 0,8px;     /* Margen interna a los 4 lados en pixeles*/   
-              
 }
 
-.ul-nav {
+a:hover{
+    color: lightcyan;
+}
+
+.nav-ul {
     display: inline-block;
 }
 
-.ul-buscar {
-    display: inline-block;
-}
 
-/* Clase CSS (.) */
-.li-nav {
+.nav-li {
     display: inline-block;      /* Visualizacion en bloques de linea (Ordena o alinea a un lado)*/ 
     margin: 5px;
     padding-left: 5px;      /* Margen interna a la izquierda en pixeles*/
@@ -43,41 +116,34 @@ nav {
     padding-right: 5px;
 }
 
+.ul-buscar {
+    display: inline-block;
+}
+
+
+
+
 a {
      color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra)*/
 }
 
-h2 {
+
+/* H */
+.h2-article {
     color: #5D57B3 ;
+    margin-left: 15px;
+    margin-right: 10px;
 }
 
-header {
-    background-color: #EBEDF2;
-    margin: 2px;
-}
+
+
 
 img {
     display: block;
     margin: auto;
 }
 
-aside {
-    background-color: #EBEDF2;
-    margin: 2px;
-    display: inline-block;
-    width: 30%;             /* Ancho */
-    padding: 15px;
-    float: left;            /* Flotando a la izquierda*/     
-}
 
-section {
-    background-color: #EBEDF2;
-    margin: 2px;
-    display: inline-block;
-    width: 62%;
-    padding: 15px;
-    float: left;            /* Flotando a la izquierda*/ 
-}
 
 .article-form {
     background-image: url("../img/contactenos.jpg");
@@ -95,6 +161,12 @@ section {
 
 }
 
+
+/* DIV */
+.div-img-header {
+    margin: 20px;
+}
+
 .div-form-label {
     display: inline-block;
     width: 220px;
@@ -106,6 +178,7 @@ section {
     width: 400px;
     margin: 5px;
 }
+
 
 .footer-html {
     background-color: #EBEDF2;
@@ -126,9 +199,12 @@ section {
 
 
 
-
-
-
+/* P */
+.p-text-mini{
+    color: lightcyan;
+    size: 6;
+    
+}
 
 
 
