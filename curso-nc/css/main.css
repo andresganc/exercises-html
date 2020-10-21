@@ -40,16 +40,12 @@ header {
 }
 
 
-
-
-
-
-
 /* ASIDE */
 aside {
     background-color: #0E0F0F;
     display: inline-block;
     width: 30%;
+    height: 9000px;
     float: left;            /* Flotando a la izquierda*/     
 }
 
@@ -60,8 +56,6 @@ aside {
 .aside-h3 {
     color: lightcyan;
 }
-
-
 
 
 /* SECTIONS */
@@ -84,7 +78,6 @@ aside {
 article {
     margin: 50px;
 }
-
 
 
 /* NAV */
@@ -134,8 +127,6 @@ a {
     margin-left: 15px;
     margin-right: 10px;
 }
-
-
 
 
 img {
@@ -197,24 +188,12 @@ img {
 }
 
 
-
-
 /* P */
 .p-text-mini{
     color: lightcyan;
     size: 6;
     
 }
-
-
-
-
-
-
-
-
-
-
 
 
 li {
