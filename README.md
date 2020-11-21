@@ -1,9 +1,9 @@
 
-# [<img src="./documentation/img/html5.jpg" />](https://developer.mozilla.org/es/docs/HTML/HTML5)
+# [<img src="./readme/img/html5.jpg" />](https://developer.mozilla.org/es/docs/HTML/HTML5)
 
 <br>
 
-# [<img src="./documentation/img/logo-nc.png" width="30"/>](https://newsoftcomputer.com) CURSO NC DE HTML5
+# [<img src="./readme/img/logo-nc.png" width="30"/>](https://newsoftcomputer.com) CURSO NC DE HTML5
     
     - Curso de empresa sobre HTML5
 
